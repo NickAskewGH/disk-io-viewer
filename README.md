@@ -2,6 +2,8 @@
 
 A local Linux desktop monitor for per-drive read and write throughput.
 
+![Five drive graphs showing read throughput in blue and write throughput in red over the last 60 seconds](docs/images/disk-io-viewer.png)
+
 ## Standalone Linux executable
 
 Run `just build` from the project directory using uv and a Python 3.12+ installation with Tk support. Launch the resulting `dist/disk-io-viewer` directly in your graphical session. You can move the executable and its adjacent `disk-io.toml` together to another directory on this machine. The executable includes Python and Tk.
