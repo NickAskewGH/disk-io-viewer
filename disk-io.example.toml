@@ -1,0 +1,15 @@
+# Copy to disk-io.toml and replace the paths with your drives.
+sample_interval_seconds = 1
+history_seconds = 60
+
+[[devices]]
+path = "/dev/nvme0n1"
+label = "Scratch NVMe"
+
+[[devices]]
+path = "/dev/disk/by-id/ata-EXAMPLE_SSD_SERIAL"
+label = "System SSD"
+
+[[devices]]
+path = "/dev/disk/by-id/ata-EXAMPLE_HDD_SERIAL"
+label = "Archive HDD"
